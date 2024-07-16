@@ -1,0 +1,245 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family:Roboto, sans-serif, arial;
+    font-size: 16px;
+    color: #242424;
+}
+
+.contaioner{
+    width: 1300px;
+    margin: 0px auto;
+}
+
+
+
+.headerr{
+    background-color: #46b7c1;
+    padding: 6px;
+}
+
+.headerr b{
+    background-color: #fff;
+    color: red;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 0px;
+}
+.headerr b:hover{
+    color: #088b97;
+}
+
+.headerr marquee{
+    font-size: 20px;
+    color: #fff;
+    width:80%
+}
+
+.logo{
+    height:60px;
+    margin-left: 20px;
+}
+.container a{
+    color: black;
+}
+.container a:hover{
+    color: #46b7c1;
+}
+
+nav{
+    float: right;
+    padding: 25px 0px;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 2px 10px;
+    font-weight: 500;
+}
+.slider img{
+    width: 100%;
+    height: 500px;
+}
+
+.event marquee{
+    height: 640px;
+}
+
+.main-section{
+    width: 100%;
+    float:left;
+    padding: 70px 0px 70px 0px;
+}
+
+.heading{
+    font-size: 28px;
+    font-weight: 500;
+    border-bottom: 2px solid #46b7c1;
+    margin-bottom: 20px;
+    color: #46b7c1;
+}
+
+.event{
+    width: 32%;
+    margin-right: 1%;
+    float: left;
+    background-color: #fff;
+    padding: 10px;
+}
+
+.event .heading{
+    border-bottom: 1px solid #46b7c1;
+    padding: 5px;
+    color: #fff;
+    background-color: #46b7c1;
+    text-align: center;
+}
+.heading:hover{
+    color: #46b7c1;
+    background-color:#105e65 ;    
+}
+
+.event ul li{
+    margin-bottom: 20px;
+    width: 100%;
+    float: left;
+    list-style: none;
+    
+}
+.event ul li:hover{
+    color: rgb(19, 101, 101);
+}
+
+.event-date{
+    background-color: #46b7c1;
+    float: left;
+     text-align: center;
+    font-size: 14px;
+    color: #fff;
+    padding: 8px 12px;
+    margin: 10px;
+} 
+
+.about-us div{
+    width: 45%;
+    float: left;
+    line-height: 30px;
+    font-size: 18px;
+}
+.about-us h4{
+    font-size: 22px;
+}
+.about-us p{
+    line-height: 42px;
+}
+.about-us img{
+    width: 40%;
+    float: right;
+    
+
+}
+.about-us{
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.award p{
+    width: 100%;
+    float: left;
+    font-size: 16px;
+}
+
+.award img{
+    width: 100%;
+}
+.award b{
+    min-width: 115px;
+    float: left;
+    margin-bottom: 20px;
+}
+.award h3{
+    font-size: 23px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.testimonial{
+    width: 30.5%;
+    float: left;
+    margin-right: 2.5%;
+}
+.testimonial-text{
+    background-color: #46b7c1;
+    padding: 20ox;
+    line-height: 35px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+}
+
+.testimonial-details{
+    float: left;
+    margin-top: 10px;
+}
+.testimonial-img{
+    float: left;
+}
+.testimonial-img img{
+    border-radius: 50%;
+}
+.testimonial-name{
+    margin-left: 10px;
+    float: left;
+}
+.testimonial-name h5{
+    font-size: 18px;
+    margin-top: 8px;
+}
+
+.gallery img{
+    width: 24%;
+    padding-left: 2%;
+    max-height: 210px;
+    padding-top:20px;
+
+}
+.gallery h2{
+    padding: 30px;
+}
+
+.footer{
+    background-color: #46b7c1;
+    padding: 20px 0px;
+    width: 100%;
+    float: left;
+}
+.footer-sect{
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: 20px;
+}
+.footer-sect a{
+    color: #fff;
+    margin-left: 10px;
+    text-decoration: none;
+}
+@media only screen and (max-width:600px){
+    .main-section{
+        flex-wrap: wrap;
+    }
+
+    .event marquee{
+        direction: none;
+    }
+    .body{
+        position: fixed;
+    }
+}
